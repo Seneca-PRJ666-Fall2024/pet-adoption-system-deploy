@@ -1,0 +1,360 @@
+[{
+  "_id": {
+    "$oid": "674b9e4c2d13181de6734265"
+  },
+  "name": "male",
+  "attributeGroupId": "674b9cd857a9a824d24982df",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "674b9e4c2d13181de6734266"
+  },
+  "name": "female",
+  "attributeGroupId": "674b9cd857a9a824d24982df",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "674b9e4d2d13181de6734267"
+  },
+  "name": "cat",
+  "attributeGroupId": "674b9cd957a9a824d24982e0",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "674b9e4d2d13181de6734268"
+  },
+  "name": "dog",
+  "attributeGroupId": "674b9cd957a9a824d24982e0",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "674b9e4d2d13181de6734269"
+  },
+  "name": "rabbit",
+  "attributeGroupId": "674b9cd957a9a824d24982e0",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "674b9e4d2d13181de673426b"
+  },
+  "name": "apartment",
+  "attributeGroupId": "674b9cd957a9a824d24982e5",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "674b9e4d2d13181de673426c"
+  },
+  "name": "house",
+  "attributeGroupId": "674b9cd957a9a824d24982e5",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "674b9e4d2d13181de673426d"
+  },
+  "name": "farm property",
+  "attributeGroupId": "674b9cd957a9a824d24982e5",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "674b9e4d2d13181de673426e"
+  },
+  "name": "cats",
+  "attributeGroupId": "674b9cd957a9a824d24982e6",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "674b9e4d2d13181de673426f"
+  },
+  "name": "dogs",
+  "attributeGroupId": "674b9cd957a9a824d24982e6",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "674b9e4e2d13181de6734270"
+  },
+  "name": "all animals",
+  "attributeGroupId": "674b9cd957a9a824d24982e6",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "674b9e4e2d13181de6734272"
+  },
+  "name": "small",
+  "attributeGroupId": "674b9cd957a9a824d24982e3",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "674b9e4e2d13181de6734273"
+  },
+  "name": "medium",
+  "attributeGroupId": "674b9cd957a9a824d24982e3",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "674b9e4e2d13181de6734274"
+  },
+  "name": "large",
+  "attributeGroupId": "674b9cd957a9a824d24982e3",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "674b9e4e2d13181de6734275"
+  },
+  "name": "very active",
+  "attributeGroupId": "674b9cd957a9a824d24982e4",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "674b9e4e2d13181de6734276"
+  },
+  "name": "active",
+  "attributeGroupId": "674b9cd957a9a824d24982e4",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "674b9e4e2d13181de6734277"
+  },
+  "name": "quiet",
+  "attributeGroupId": "674b9cd957a9a824d24982e4",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "674baf126e6cea5b776df1be"
+  },
+  "name": "Poodle",
+  "attributeGroupId": "674b9cd957a9a824d24982e1",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "674baf126e6cea5b776df1bf"
+  },
+  "name": "Chihuahua",
+  "attributeGroupId": "674b9cd957a9a824d24982e1",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "674baf126e6cea5b776df1c0"
+  },
+  "name": "American Bobtail",
+  "attributeGroupId": "674b9cd957a9a824d24982e1",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "67596c9673b5bf1083d86839"
+  },
+  "name": "black",
+  "attributeGroupId": "674b9cd957a9a824d24982e2",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "67596c9673b5bf1083d8683a"
+  },
+  "name": "hamsters",
+  "attributeGroupId": "674b9cd957a9a824d24982e6",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "67596c9773b5bf1083d8683b"
+  },
+  "name": "rabbits",
+  "attributeGroupId": "674b9cd957a9a824d24982e6",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "675973ea53f34c7eb1edadc1"
+  },
+  "name": "white",
+  "attributeGroupId": "674b9cd957a9a824d24982e2",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "67597667d6de2c28f0332dcf"
+  },
+  "name": "brown",
+  "attributeGroupId": "674b9cd957a9a824d24982e2",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "67597797d6de2c28f0332dd0"
+  },
+  "name": "gray",
+  "attributeGroupId": "674b9cd957a9a824d24982e2",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "67597956b32cec441d19fb67"
+  },
+  "name": "Chow-Chow",
+  "attributeGroupId": "674b9cd957a9a824d24982e1",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "67597957b32cec441d19fb68"
+  },
+  "name": "orange",
+  "attributeGroupId": "674b9cd957a9a824d24982e2",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "675979a6b32cec441d19fb69"
+  },
+  "name": "British Shorthair",
+  "attributeGroupId": "674b9cd957a9a824d24982e1",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "675979efb32cec441d19fb6a"
+  },
+  "name": "Shih Tzu",
+  "attributeGroupId": "674b9cd957a9a824d24982e1",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "67597aeab5776e6da300b5cf"
+  },
+  "name": "Maltipoo",
+  "attributeGroupId": "674b9cd957a9a824d24982e1",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "67597aebb5776e6da300b5d0"
+  },
+  "name": "pale brown",
+  "attributeGroupId": "674b9cd957a9a824d24982e2",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "67597c3e59aedc76ad8e4694"
+  },
+  "name": "American Shorthair",
+  "attributeGroupId": "674b9cd957a9a824d24982e1",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "67597c3f59aedc76ad8e4695"
+  },
+  "name": "tabby",
+  "attributeGroupId": "674b9cd957a9a824d24982e2",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "67597c6c59aedc76ad8e4696"
+  },
+  "name": "Abyssinian",
+  "attributeGroupId": "674b9cd957a9a824d24982e1",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "67597c9a59aedc76ad8e4697"
+  },
+  "name": "Corgi",
+  "attributeGroupId": "674b9cd957a9a824d24982e1",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "67597ce159aedc76ad8e4698"
+  },
+  "name": "Afghan Hound",
+  "attributeGroupId": "674b9cd957a9a824d24982e1",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "67597d2259aedc76ad8e4699"
+  },
+  "name": "Shpitz",
+  "attributeGroupId": "674b9cd957a9a824d24982e1",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "67597ddc59aedc76ad8e469b"
+  },
+  "name": "Persian",
+  "attributeGroupId": "674b9cd957a9a824d24982e1",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "67597e8959aedc76ad8e469c"
+  },
+  "name": "Beagle",
+  "attributeGroupId": "674b9cd957a9a824d24982e1",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "6759fdde59aedc76ad8e46c0"
+  },
+  "name": "baby",
+  "attributeGroupId": "6759fd727e14fc942503ad81",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "6759fdf659aedc76ad8e46ca"
+  },
+  "name": "young",
+  "attributeGroupId": "6759fd727e14fc942503ad81",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "6759fe0f59aedc76ad8e46d5"
+  },
+  "name": "adult",
+  "attributeGroupId": "6759fd727e14fc942503ad81",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "6759fe2759aedc76ad8e46e1"
+  },
+  "name": "senior",
+  "attributeGroupId": "6759fd727e14fc942503ad81",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+},
+{
+  "_id": {
+    "$oid": "675a0c787b99272ee2421eca"
+  },
+  "name": "None",
+  "attributeGroupId": "674b9cd957a9a824d24982e6",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Attribute"
+}]

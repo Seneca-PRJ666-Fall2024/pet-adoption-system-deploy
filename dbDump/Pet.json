@@ -1,0 +1,306 @@
+[{
+  "_id": {
+    "$oid": "6743b8723d2ba21dfa8090d7"
+  },
+  "name": "Chow-Chow",
+  "shelterUserId": "674baca5bf3fd90d430de4a6",
+  "imageUrl": "/images/487a468c-ebf6-42f1-a45d-03a4da43d454.avif",
+  "attributes": [
+    "6759fe0f59aedc76ad8e46d5",
+    "674b9e4c2d13181de6734265",
+    "67597667d6de2c28f0332dcf",
+    "674b9e4d2d13181de673426b",
+    "674b9e4d2d13181de6734268",
+    "674b9e4e2d13181de6734270",
+    "674b9e4e2d13181de6734272",
+    "674b9e4e2d13181de6734277",
+    "67597956b32cec441d19fb67"
+  ],
+  "images": [
+    "/images/487a468c-ebf6-42f1-a45d-03a4da43d454.avif"
+  ],
+  "_class": "com.prj666.group1.petadoptionsystem.model.Pet"
+},
+{
+  "_id": {
+    "$oid": "6743b8723d2ba21dfa8090d9"
+  },
+  "name": "British Shorthair",
+  "shelterUserId": "674baca5bf3fd90d430de4a6",
+  "imageUrl": "/images/8b8a251a-c86e-4ec8-b192-a00a7ab49441.webp",
+  "attributes": [
+    "6759fe0f59aedc76ad8e46d5",
+    "674b9e4c2d13181de6734266",
+    "67597797d6de2c28f0332dd0",
+    "674b9e4d2d13181de673426c",
+    "674b9e4d2d13181de6734267",
+    "674b9e4d2d13181de673426e",
+    "674b9e4e2d13181de6734272",
+    "674b9e4e2d13181de6734277",
+    "675979a6b32cec441d19fb69"
+  ],
+  "images": [
+    "/images/8b8a251a-c86e-4ec8-b192-a00a7ab49441.webp"
+  ],
+  "_class": "com.prj666.group1.petadoptionsystem.model.Pet"
+},
+{
+  "_id": {
+    "$oid": "6743b8723d2ba21dfa8090d6"
+  },
+  "name": "Shih Tzu",
+  "shelterUserId": "674baca5bf3fd90d430de4a6",
+  "imageUrl": "/images/398b3a3f-a78a-46c8-b8fa-3c370e41573e.avif",
+  "attributes": [
+    "6759fe2759aedc76ad8e46e1",
+    "674b9e4c2d13181de6734265",
+    "675973ea53f34c7eb1edadc1",
+    "674b9e4d2d13181de6734268",
+    "674b9e4d2d13181de673426c",
+    "674b9e4d2d13181de673426f",
+    "674b9e4e2d13181de6734275",
+    "674b9e4e2d13181de6734272",
+    "675979efb32cec441d19fb6a"
+  ],
+  "images": [
+    "/images/398b3a3f-a78a-46c8-b8fa-3c370e41573e.avif"
+  ],
+  "status": "AVAILABLE",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Pet"
+},
+{
+  "_id": {
+    "$oid": "6743b8723d2ba21dfa8090d8"
+  },
+  "name": "Maltipoo",
+  "shelterUserId": "674baca5bf3fd90d430de4a6",
+  "imageUrl": "/images/47cd559d-a1c5-4e36-928c-7addbf2be677.avif",
+  "attributes": [
+    "6759fe2759aedc76ad8e46e1",
+    "674b9e4c2d13181de6734266",
+    "67597aebb5776e6da300b5d0",
+    "674b9e4d2d13181de673426b",
+    "674b9e4d2d13181de6734268",
+    "674b9e4d2d13181de673426f",
+    "674b9e4e2d13181de6734272",
+    "674b9e4e2d13181de6734275",
+    "67597aeab5776e6da300b5cf"
+  ],
+  "images": [
+    "/images/47cd559d-a1c5-4e36-928c-7addbf2be677.avif"
+  ],
+  "status": "AVAILABLE",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Pet"
+},
+{
+  "_id": {
+    "$oid": "6743b8723d2ba21dfa8090da"
+  },
+  "name": "American Shorthair",
+  "shelterUserId": "674baca5bf3fd90d430de4a6",
+  "imageUrl": "/images/db07acb6-bd36-4d0c-a643-a67fae4580ef.webp",
+  "attributes": [
+    "6759fdf659aedc76ad8e46ca",
+    "674b9e4c2d13181de6734265",
+    "67597c3f59aedc76ad8e4695",
+    "674b9e4d2d13181de673426d",
+    "674b9e4d2d13181de6734267",
+    "674b9e4e2d13181de6734270",
+    "674b9e4e2d13181de6734272",
+    "674b9e4e2d13181de6734276",
+    "67597c3e59aedc76ad8e4694"
+  ],
+  "images": [
+    "/images/db07acb6-bd36-4d0c-a643-a67fae4580ef.webp"
+  ],
+  "status": "AVAILABLE",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Pet"
+},
+{
+  "_id": {
+    "$oid": "6743b8723d2ba21dfa8090db"
+  },
+  "name": "Abyssinian",
+  "shelterUserId": "674baca5bf3fd90d430de4a6",
+  "imageUrl": "/images/e65120f7-0f2a-478c-b3e3-2a88bbfc0195.webp",
+  "attributes": [
+    "6759fe0f59aedc76ad8e46d5",
+    "674b9e4c2d13181de6734266",
+    "67597957b32cec441d19fb68",
+    "674b9e4d2d13181de673426b",
+    "674b9e4d2d13181de6734267",
+    "674b9e4d2d13181de673426e",
+    "674b9e4e2d13181de6734272",
+    "674b9e4e2d13181de6734275",
+    "67597c6c59aedc76ad8e4696"
+  ],
+  "images": [
+    "/images/e65120f7-0f2a-478c-b3e3-2a88bbfc0195.webp"
+  ],
+  "status": "AVAILABLE",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Pet"
+},
+{
+  "_id": {
+    "$oid": "674c98e7bcf9a7b592a895e3"
+  },
+  "name": "Max",
+  "shelterUserId": "674baca5bf3fd90d430de4a6",
+  "imageUrl": "/images/efb0be59-19a8-44f0-ab2d-ef04b3742949.jpg",
+  "attributes": [
+    "6759fdf659aedc76ad8e46ca",
+    "674b9e4c2d13181de6734265",
+    "67597aebb5776e6da300b5d0",
+    "674b9e4d2d13181de673426c",
+    "674b9e4d2d13181de6734268",
+    "674b9e4d2d13181de673426f",
+    "674b9e4e2d13181de6734272",
+    "674b9e4e2d13181de6734276",
+    "67597c9a59aedc76ad8e4697"
+  ],
+  "images": [
+    "/images/efb0be59-19a8-44f0-ab2d-ef04b3742949.jpg"
+  ],
+  "status": "AVAILABLE",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Pet"
+},
+{
+  "_id": {
+    "$oid": "674c98e7bcf9a7b592a895e4"
+  },
+  "name": "Bella",
+  "shelterUserId": "674baca5bf3fd90d430de4a6",
+  "imageUrl": "/images/23b48d15-380e-4091-8959-d90ab8ce031d.webp",
+  "attributes": [
+    "6759fe0f59aedc76ad8e46d5",
+    "674b9e4c2d13181de6734266",
+    "675973ea53f34c7eb1edadc1",
+    "674b9e4d2d13181de673426c",
+    "674b9e4d2d13181de6734268",
+    "674b9e4d2d13181de673426f",
+    "674b9e4e2d13181de6734274",
+    "674b9e4e2d13181de6734277",
+    "67597ce159aedc76ad8e4698"
+  ],
+  "images": [
+    "/images/23b48d15-380e-4091-8959-d90ab8ce031d.webp"
+  ],
+  "status": "AVAILABLE",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Pet"
+},
+{
+  "_id": {
+    "$oid": "674c98e7bcf9a7b592a895e5"
+  },
+  "name": "Charlie",
+  "shelterUserId": "674baca5bf3fd90d430de4a6",
+  "imageUrl": "/images/008a06d2-fc67-4c7a-a416-e86bea427e9b.jpg",
+  "attributes": [
+    "6759fdf659aedc76ad8e46ca",
+    "674b9e4c2d13181de6734265",
+    "67597aebb5776e6da300b5d0",
+    "674b9e4d2d13181de6734268",
+    "674b9e4d2d13181de673426d",
+    "674b9e4d2d13181de673426f",
+    "674b9e4e2d13181de6734275",
+    "674b9e4e2d13181de6734272",
+    "67597d2259aedc76ad8e4699"
+  ],
+  "images": [
+    "/images/008a06d2-fc67-4c7a-a416-e86bea427e9b.jpg"
+  ],
+  "status": "AVAILABLE",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Pet"
+},
+{
+  "_id": {
+    "$oid": "674c98e7bcf9a7b592a895e6"
+  },
+  "name": "Lucy",
+  "shelterUserId": "674baca5bf3fd90d430de4a6",
+  "imageUrl": "/images/4aefca87-bbbd-4f3b-ad1e-b9099f3b8b53.webp",
+  "attributes": [
+    "6759fdf659aedc76ad8e46ca",
+    "674b9e4c2d13181de6734266",
+    "67597c3f59aedc76ad8e4695",
+    "674b9e4d2d13181de673426b",
+    "674b9e4d2d13181de6734267",
+    "674b9e4d2d13181de673426e",
+    "674b9e4e2d13181de6734275",
+    "674b9e4e2d13181de6734272",
+    "67597c3e59aedc76ad8e4694"
+  ],
+  "images": [
+    "/images/4aefca87-bbbd-4f3b-ad1e-b9099f3b8b53.webp"
+  ],
+  "status": "AVAILABLE",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Pet"
+},
+{
+  "_id": {
+    "$oid": "674c98e7bcf9a7b592a895e7"
+  },
+  "name": "Buddy",
+  "shelterUserId": "674baca5bf3fd90d430de4a6",
+  "imageUrl": "/images/f8cbe3cb-6d75-40b6-b7ac-c0937e313911.jpg",
+  "attributes": [
+    "6759fdde59aedc76ad8e46c0",
+    "674b9e4c2d13181de6734265",
+    "67597667d6de2c28f0332dcf",
+    "674b9e4d2d13181de673426b",
+    "674b9e4d2d13181de6734268",
+    "674b9e4e2d13181de6734270",
+    "674b9e4e2d13181de6734275",
+    "674b9e4e2d13181de6734272",
+    "67597e8959aedc76ad8e469c"
+  ],
+  "images": [
+    "/images/f8cbe3cb-6d75-40b6-b7ac-c0937e313911.jpg"
+  ],
+  "status": "AVAILABLE",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Pet"
+},
+{
+  "_id": {
+    "$oid": "674c98e7bcf9a7b592a895e8"
+  },
+  "name": "Daisy",
+  "shelterUserId": "674baca5bf3fd90d430de4a6",
+  "imageUrl": "/images/f37c9fb2-ba8c-46c4-bdcd-5d47d35039f4.jpg",
+  "attributes": [
+    "6759fe0f59aedc76ad8e46d5",
+    "674b9e4c2d13181de6734266",
+    "675973ea53f34c7eb1edadc1",
+    "674b9e4d2d13181de6734267",
+    "674b9e4d2d13181de673426c",
+    "674b9e4e2d13181de6734270",
+    "674b9e4e2d13181de6734272",
+    "674b9e4e2d13181de6734277",
+    "67597ddc59aedc76ad8e469b"
+  ],
+  "images": [
+    "/images/f37c9fb2-ba8c-46c4-bdcd-5d47d35039f4.jpg"
+  ],
+  "_class": "com.prj666.group1.petadoptionsystem.model.Pet"
+},
+{
+  "_id": {
+    "$oid": "67555f43e0624562360c332f"
+  },
+  "name": "My Cat",
+  "shelterUserId": "674baca5bf3fd90d430de4a6",
+  "imageUrl": "/images/fb9c1ed4-a079-4b53-9c32-9554cc15c7cb.webp",
+  "attributes": [
+    "6759fe0f59aedc76ad8e46d5",
+    "674b9e4c2d13181de6734266",
+    "67597aebb5776e6da300b5d0",
+    "674b9e4d2d13181de673426b",
+    "674b9e4d2d13181de6734267",
+    "674b9e4d2d13181de673426e",
+    "674b9e4e2d13181de6734275",
+    "674b9e4e2d13181de6734272",
+    "67597c3e59aedc76ad8e4694"
+  ],
+  "status": "AVAILABLE",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Pet"
+}]

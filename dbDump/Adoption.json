@@ -1,0 +1,264 @@
+[{
+  "_id": {
+    "$oid": "6757b7a934a552552764b647"
+  },
+  "petId": "6743b8723d2ba21dfa8090d7",
+  "userId": "674b92827ab8a8680078e7f4",
+  "shelterUserId": "674baca5bf3fd90d430de4a6",
+  "recommendationId": "6757acc873a4f82c84523f8c",
+  "date": {
+    "$date": "2024-12-09T00:00:00.000Z"
+  },
+  "status": "DECISION_MAKING",
+  "answers": {
+    "travelPlan": "",
+    "priorExperience": "",
+    "groomingPlan": "",
+    "references": "",
+    "sleepingArrangements": "",
+    "vetContact": "",
+    "behavioralExpectations": "",
+    "housingType": "",
+    "exercisePlan": "",
+    "commitmentAcknowledgement": "true",
+    "rentOrOwn": "own",
+    "currentPets": "",
+    "hoursAlone": "",
+    "activeLifestyle": "",
+    "fencedYard": "",
+    "landlordContact": "",
+    "crateTraining": ""
+  },
+  "_class": "com.prj666.group1.petadoptionsystem.model.Adoption"
+},
+{
+  "_id": {
+    "$oid": "67580cfb04e99f6cd9ddbdfe"
+  },
+  "petId": "6743b8723d2ba21dfa8090db",
+  "userId": "67580c4104e99f6cd9ddbdf1",
+  "shelterUserId": "674baca5bf3fd90d430de4a6",
+  "recommendationId": "67580cce04e99f6cd9ddbdf9",
+  "date": {
+    "$date": "2024-12-10T00:00:00.000Z"
+  },
+  "status": "SUBMITTED",
+  "answers": {
+    "travelPlan": "",
+    "priorExperience": "",
+    "groomingPlan": "",
+    "references": "",
+    "sleepingArrangements": "",
+    "vetContact": "",
+    "behavioralExpectations": "",
+    "housingType": "",
+    "exercisePlan": "",
+    "commitmentAcknowledgement": "true",
+    "rentOrOwn": "own",
+    "currentPets": "",
+    "hoursAlone": "12",
+    "activeLifestyle": "active",
+    "fencedYard": "no",
+    "landlordContact": "",
+    "crateTraining": "no"
+  },
+  "_class": "com.prj666.group1.petadoptionsystem.model.Adoption"
+},
+{
+  "_id": {
+    "$oid": "67597f4f59aedc76ad8e46a9"
+  },
+  "petId": "6743b8723d2ba21dfa8090d7",
+  "userId": "67522a10c818791a78173191",
+  "shelterUserId": "674baca5bf3fd90d430de4a6",
+  "recommendationId": "67597ebb59aedc76ad8e469e",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "REJECTED",
+  "answers": {
+    "travelPlan": "Travel with my pet",
+    "priorExperience": "No",
+    "groomingPlan": "Every day",
+    "references": "",
+    "sleepingArrangements": "House",
+    "vetContact": "1212312",
+    "behavioralExpectations": "Behave like dog",
+    "housingType": "House",
+    "exercisePlan": "No",
+    "commitmentAcknowledgement": "true",
+    "rentOrOwn": "own",
+    "currentPets": "No",
+    "hoursAlone": "8",
+    "activeLifestyle": "Not Active",
+    "fencedYard": "No",
+    "landlordContact": "",
+    "crateTraining": "No"
+  },
+  "_class": "com.prj666.group1.petadoptionsystem.model.Adoption"
+},
+{
+  "_id": {
+    "$oid": "675a04047b99272ee2421e9a"
+  },
+  "petId": "674c98e7bcf9a7b592a895e5",
+  "userId": "674b92827ab8a8680078e7f4",
+  "shelterUserId": "674baca5bf3fd90d430de4a6",
+  "recommendationId": "6757acd673a4f82c84523f95",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "CANCELLED",
+  "answers": {
+    "travelPlan": "bring them with me",
+    "priorExperience": "yes two dogs ",
+    "groomingPlan": "once a month ",
+    "references": "Julie 222-333-4444 sister ",
+    "sleepingArrangements": "master badroom",
+    "vetContact": "Victoria Smith 123-456-7890",
+    "behavioralExpectations": "not aggressive dogs",
+    "housingType": "condo",
+    "exercisePlan": "walkout every day twice ",
+    "commitmentAcknowledgement": "true",
+    "rentOrOwn": "own",
+    "currentPets": "poodle 11 years old ",
+    "hoursAlone": "3",
+    "activeLifestyle": "moderately",
+    "fencedYard": "No",
+    "landlordContact": "",
+    "crateTraining": "YEs"
+  },
+  "_class": "com.prj666.group1.petadoptionsystem.model.Adoption"
+},
+{
+  "_id": {
+    "$oid": "675a04117b99272ee2421e9b"
+  },
+  "petId": "6743b8723d2ba21dfa8090d7",
+  "userId": "6759ff0d7b99272ee2421e76",
+  "shelterUserId": "674baca5bf3fd90d430de4a6",
+  "recommendationId": "675a02bd7b99272ee2421e95",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "CANCELLED",
+  "answers": {
+    "travelPlan": "",
+    "priorExperience": "",
+    "groomingPlan": "",
+    "references": "",
+    "sleepingArrangements": "",
+    "vetContact": "",
+    "behavioralExpectations": "",
+    "housingType": "",
+    "exercisePlan": "",
+    "commitmentAcknowledgement": "",
+    "rentOrOwn": "",
+    "currentPets": "",
+    "hoursAlone": "",
+    "activeLifestyle": "",
+    "fencedYard": "",
+    "landlordContact": "",
+    "crateTraining": ""
+  },
+  "_class": "com.prj666.group1.petadoptionsystem.model.Adoption"
+},
+{
+  "_id": {
+    "$oid": "675a057b7b99272ee2421e9d"
+  },
+  "petId": "6743b8723d2ba21dfa8090da",
+  "userId": "6759f8db5b88c720700b9187",
+  "shelterUserId": "674baca5bf3fd90d430de4a6",
+  "recommendationId": "6759fbdb9453b009e18757dc",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "CANCELLED",
+  "answers": {
+    "travelPlan": "",
+    "priorExperience": "",
+    "groomingPlan": "",
+    "references": "",
+    "sleepingArrangements": "",
+    "vetContact": "",
+    "behavioralExpectations": "",
+    "housingType": "apartment",
+    "exercisePlan": "",
+    "commitmentAcknowledgement": "true",
+    "rentOrOwn": "own",
+    "currentPets": "",
+    "hoursAlone": "9",
+    "activeLifestyle": "",
+    "fencedYard": "",
+    "landlordContact": "",
+    "crateTraining": ""
+  },
+  "_class": "com.prj666.group1.petadoptionsystem.model.Adoption"
+},
+{
+  "_id": {
+    "$oid": "675a1cc07b99272ee2421f5c"
+  },
+  "petId": "6743b8723d2ba21dfa8090d6",
+  "userId": "675a178e7b99272ee2421f48",
+  "shelterUserId": "674baca5bf3fd90d430de4a6",
+  "recommendationId": "675a18e27b99272ee2421f52",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "CANCELLED",
+  "answers": {
+    "travelPlan": "",
+    "priorExperience": "",
+    "groomingPlan": "",
+    "references": "",
+    "sleepingArrangements": "",
+    "vetContact": "",
+    "behavioralExpectations": "",
+    "housingType": "House",
+    "exercisePlan": "",
+    "commitmentAcknowledgement": "true",
+    "rentOrOwn": "own",
+    "currentPets": "",
+    "hoursAlone": "",
+    "activeLifestyle": "",
+    "fencedYard": "",
+    "landlordContact": "",
+    "crateTraining": ""
+  },
+  "_class": "com.prj666.group1.petadoptionsystem.model.Adoption"
+},
+{
+  "_id": {
+    "$oid": "675a29fc7b99272ee2421fa2"
+  },
+  "petId": "6743b8723d2ba21dfa8090db",
+  "userId": "675a277d7b99272ee2421f84",
+  "shelterUserId": "674baca5bf3fd90d430de4a6",
+  "recommendationId": "675a297f7b99272ee2421f94",
+  "date": {
+    "$date": "2024-12-12T00:00:00.000Z"
+  },
+  "status": "CANCELLED",
+  "answers": {
+    "travelPlan": "",
+    "priorExperience": "",
+    "groomingPlan": "",
+    "references": "",
+    "sleepingArrangements": "",
+    "vetContact": "",
+    "behavioralExpectations": "",
+    "housingType": "House",
+    "exercisePlan": "",
+    "commitmentAcknowledgement": "true",
+    "rentOrOwn": "own",
+    "currentPets": "",
+    "hoursAlone": "",
+    "activeLifestyle": "Very active",
+    "fencedYard": "No",
+    "landlordContact": "",
+    "crateTraining": ""
+  },
+  "_class": "com.prj666.group1.petadoptionsystem.model.Adoption"
+}]

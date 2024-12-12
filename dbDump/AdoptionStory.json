@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "671985bc479bfd9b00d007e7"
+  },
+  "title": "Amazing Experience!",
+  "story": "We found our perfect furry friend through this platform, and the process was seamless.",
+  "author": "Jane Doe"
+},
+{
+  "_id": {
+    "$oid": "671985bc479bfd9b00d007e8"
+  },
+  "title": "Highly Recommend!",
+  "story": "The staff was very helpful, and now we have a new family member who brings us so much joy.",
+  "author": "John Smith"
+},
+{
+  "_id": {
+    "$oid": "671985bc479bfd9b00d007e9"
+  },
+  "title": "A True Blessing",
+  "story": "Adopting our cat changed our lives, and we're so grateful for this service.",
+  "author": "Emily Davis"
+},
+{
+  "_id": {
+    "$oid": "671985bc479bfd9b00d007ea"
+  },
+  "title": "Fantastic Service",
+  "story": "I never thought adopting a pet would be this easy! Great team and very helpful support.",
+  "author": "Robert Wilson"
+},
+{
+  "_id": {
+    "$oid": "671985bc479bfd9b00d007eb"
+  },
+  "title": "Heartwarming Experience",
+  "story": "Our family adopted two kittens, and they’ve brought so much happiness into our home.",
+  "author": "Samantha Green"
+},
+{
+  "_id": {
+    "$oid": "671985bc479bfd9b00d007ec"
+  },
+  "title": "Smooth and Safe Process",
+  "story": "I felt confident in the adoption process. The platform provided excellent guidance from start to finish.",
+  "author": "Michael Brown"
+},
+{
+  "_id": {
+    "$oid": "67353a763318df90e13fdd07"
+  },
+  "author": "Vadim Platonov",
+  "title": "Test Story",
+  "story": "Just a testing story"
+}]

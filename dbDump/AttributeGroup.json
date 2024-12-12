@@ -1,0 +1,117 @@
+[{
+  "_id": {
+    "$oid": "674b9cd857a9a824d24982df"
+  },
+  "name": "petGender",
+  "mandatory": false,
+  "multivalued": false,
+  "description": "Pet Gender",
+  "adopterQuestion": "What is the preferred Gender for your pet?",
+  "shelterQuestion": "What is the Gender of this Pet?",
+  "_class": "com.prj666.group1.petadoptionsystem.model.AttributeGroup",
+  "supportsOther": false
+},
+{
+  "_id": {
+    "$oid": "674b9cd957a9a824d24982e0"
+  },
+  "name": "petType",
+  "mandatory": false,
+  "multivalued": false,
+  "_class": "com.prj666.group1.petadoptionsystem.model.AttributeGroup",
+  "description": "Pet Type",
+  "supportsOther": true,
+  "adopterQuestion": "What type of pet are you interested in adopting?",
+  "shelterQuestion": "What type of pet is this?"
+},
+{
+  "_id": {
+    "$oid": "674b9cd957a9a824d24982e1"
+  },
+  "name": "breedType",
+  "mandatory": false,
+  "multivalued": false,
+  "_class": "com.prj666.group1.petadoptionsystem.model.AttributeGroup",
+  "description": "Pet Breed",
+  "adopterQuestion": "Do you have a preferred breed?",
+  "supportsOther": true,
+  "shelterQuestion": "What is the breed of this pet?"
+},
+{
+  "_id": {
+    "$oid": "674b9cd957a9a824d24982e2"
+  },
+  "name": "petColour",
+  "mandatory": false,
+  "multivalued": false,
+  "_class": "com.prj666.group1.petadoptionsystem.model.AttributeGroup",
+  "description": "Pet Color",
+  "adopterQuestion": "Do you have a preferred pet colour?",
+  "supportsOther": true,
+  "shelterQuestion": "What colour is this pet?"
+},
+{
+  "_id": {
+    "$oid": "674b9cd957a9a824d24982e3"
+  },
+  "name": "petSize",
+  "mandatory": false,
+  "multivalued": false,
+  "_class": "com.prj666.group1.petadoptionsystem.model.AttributeGroup",
+  "description": "Pet Size",
+  "adopterQuestion": "What size of pet are you interested in?",
+  "supportsOther": false,
+  "shelterQuestion": "What size is this pet?"
+},
+{
+  "_id": {
+    "$oid": "674b9cd957a9a824d24982e4"
+  },
+  "name": "petActivityLevel",
+  "mandatory": false,
+  "multivalued": false,
+  "_class": "com.prj666.group1.petadoptionsystem.model.AttributeGroup",
+  "description": "Pet Activity Level",
+  "adopterQuestion": "What activity level do you prefer in a pet?",
+  "supportsOther": false,
+  "shelterQuestion": "How active is this pet?"
+},
+{
+  "_id": {
+    "$oid": "674b9cd957a9a824d24982e5"
+  },
+  "name": "petEnvironment",
+  "mandatory": false,
+  "multivalued": false,
+  "_class": "com.prj666.group1.petadoptionsystem.model.AttributeGroup",
+  "description": "Pet Environment",
+  "adopterQuestion": "What is your living environment like?",
+  "supportsOther": false,
+  "shelterQuestion": "What type of living environment suits this pet?"
+},
+{
+  "_id": {
+    "$oid": "674b9cd957a9a824d24982e6"
+  },
+  "name": "petSocial",
+  "mandatory": false,
+  "multivalued": false,
+  "_class": "com.prj666.group1.petadoptionsystem.model.AttributeGroup",
+  "description": "Pet Social",
+  "adopterQuestion": "Do you have other pets at home?",
+  "supportsOther": true,
+  "shelterQuestion": "Is this pet social with other animals?"
+},
+{
+  "_id": {
+    "$oid": "6759fd727e14fc942503ad81"
+  },
+  "name": "petAge",
+  "mandatory": false,
+  "multivalued": false,
+  "_class": "com.prj666.group1.petadoptionsystem.model.AttributeGroup",
+  "description": "Pet Age",
+  "adopterQuestion": "What age of pet are you interested in?",
+  "supportsOther": false,
+  "shelterQuestion": "What age is this pet?"
+}]

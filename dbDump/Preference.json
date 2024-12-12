@@ -1,0 +1,232 @@
+[{
+  "_id": {
+    "$oid": "675227f4c818791a7817317f"
+  },
+  "userId": "675227ddc818791a7817317e",
+  "attributeId": "674b9e4c2d13181de6734265",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "675227f4c818791a78173180"
+  },
+  "userId": "675227ddc818791a7817317e",
+  "attributeId": "674b9e4d2d13181de6734268",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "67597fa559aedc76ad8e46aa"
+  },
+  "userId": "67522a10c818791a78173191",
+  "attributeId": "674b9e4c2d13181de6734265",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "67597fa559aedc76ad8e46ab"
+  },
+  "userId": "67522a10c818791a78173191",
+  "attributeId": "674b9e4d2d13181de6734268",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "67597fa559aedc76ad8e46ac"
+  },
+  "userId": "67522a10c818791a78173191",
+  "attributeId": "674b9e4e2d13181de6734272",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "67597fa559aedc76ad8e46ad"
+  },
+  "userId": "67522a10c818791a78173191",
+  "attributeId": "674baf126e6cea5b776df1bf",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "67597fa559aedc76ad8e46ae"
+  },
+  "userId": "67522a10c818791a78173191",
+  "attributeId": "67597c9a59aedc76ad8e4697",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "67597fa559aedc76ad8e46af"
+  },
+  "userId": "67522a10c818791a78173191",
+  "attributeId": "674baf126e6cea5b776df1be",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "6759fe2759aedc76ad8e46e2"
+  },
+  "userId": "67580c4104e99f6cd9ddbdf1",
+  "attributeId": "6759fdf659aedc76ad8e46ca",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "6759fe2759aedc76ad8e46e3"
+  },
+  "userId": "67580c4104e99f6cd9ddbdf1",
+  "attributeId": "6759fdde59aedc76ad8e46c0",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "6759fe2759aedc76ad8e46e4"
+  },
+  "userId": "67580c4104e99f6cd9ddbdf1",
+  "attributeId": "6759fe0f59aedc76ad8e46d5",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "6759fe2759aedc76ad8e46e5"
+  },
+  "userId": "67580c4104e99f6cd9ddbdf1",
+  "attributeId": "674b9e4c2d13181de6734265",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "6759fe2759aedc76ad8e46e6"
+  },
+  "userId": "67580c4104e99f6cd9ddbdf1",
+  "attributeId": "67596c9673b5bf1083d86839",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "6759fe2759aedc76ad8e46e7"
+  },
+  "userId": "67580c4104e99f6cd9ddbdf1",
+  "attributeId": "674b9e4d2d13181de6734268",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "6759fe2759aedc76ad8e46e8"
+  },
+  "userId": "67580c4104e99f6cd9ddbdf1",
+  "attributeId": "67596c9673b5bf1083d8683a",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "6759fe2759aedc76ad8e46e9"
+  },
+  "userId": "67580c4104e99f6cd9ddbdf1",
+  "attributeId": "67596c9773b5bf1083d8683b",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "6759fe2759aedc76ad8e46ea"
+  },
+  "userId": "67580c4104e99f6cd9ddbdf1",
+  "attributeId": "674b9e4e2d13181de6734276",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "6759fe2759aedc76ad8e46eb"
+  },
+  "userId": "67580c4104e99f6cd9ddbdf1",
+  "attributeId": "674b9e4e2d13181de6734273",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "6759fe2759aedc76ad8e46ec"
+  },
+  "userId": "67580c4104e99f6cd9ddbdf1",
+  "attributeId": "674baf126e6cea5b776df1bf",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "6759fe2759aedc76ad8e46ed"
+  },
+  "userId": "67580c4104e99f6cd9ddbdf1",
+  "attributeId": "6759fe2759aedc76ad8e46e1",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "675a02ba7b99272ee2421e93"
+  },
+  "userId": "6759ff0d7b99272ee2421e76",
+  "attributeId": "674b9e4d2d13181de6734268",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "675a0ef17b99272ee2421f12"
+  },
+  "userId": "675a0ed97b99272ee2421f0b",
+  "attributeId": "674b9e4d2d13181de6734267",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "675a15cf7b99272ee2421f36"
+  },
+  "userId": "6759f8db5b88c720700b9187",
+  "attributeId": "674b9e4d2d13181de6734267",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "675a15cf7b99272ee2421f37"
+  },
+  "userId": "6759f8db5b88c720700b9187",
+  "attributeId": "674b9e4c2d13181de6734266",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "675a16a97b99272ee2421f3e"
+  },
+  "userId": "674b92827ab8a8680078e7f4",
+  "attributeId": "674b9e4d2d13181de6734267",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "675a1af97b99272ee2421f55"
+  },
+  "userId": "675a178e7b99272ee2421f48",
+  "attributeId": "674b9e4d2d13181de6734267",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "675a21207b99272ee2421f70"
+  },
+  "userId": "675a1f2a7b99272ee2421f5d",
+  "attributeId": "674b9e4d2d13181de6734268",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "675a29b07b99272ee2421f9a"
+  },
+  "userId": "675a277d7b99272ee2421f84",
+  "attributeId": "674b9e4d2d13181de6734267",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+},
+{
+  "_id": {
+    "$oid": "675a29b07b99272ee2421f9b"
+  },
+  "userId": "675a277d7b99272ee2421f84",
+  "attributeId": "674b9e4d2d13181de6734268",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Preference"
+}]

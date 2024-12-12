@@ -1,0 +1,895 @@
+openapi: 3.0.0
+
+info:
+  title: Pet Adoption System API
+  description: API for user registration, login, adopter preferences, shelter pet
+    management, and recommendations in the Pet Adoption System.
+  version: 5.0.0
+  contact:
+    name: PRJ666 - Group 1 - 'Pet Adoption System' Team
+    email: support@petadoption.com
+
+servers:
+  - url: ${openapi.petAdoptionSystem.base-path}
+    description: Configurable base path for the API
+
+
+tags:
+  - name: user
+    description: Operations about Users (Both Adopters and Shelters)
+  - name: pet
+    description: Operations about Pets
+  - name: matching
+    description: Operations about Adopters
+  - name: adoption
+    description: Operations about Adoptions
+
+
+paths:
+
+  /user/register:
+    post:
+      tags:
+        - user
+      summary: Register a new user
+      description: Registers a new user with an email, password, and account type
+        (Pet Adopter or Pet Shelter).
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  example: adopter@example.com
+                password:
+                  type: string
+                  example: P@ssw0rd
+                role:
+                  $ref: '#/components/schemas/Role'
+      responses:
+        '201':
+          description: User registered successfully
+          $ref: '#/components/responses/GenericApiResponse'
+        '400':
+          description: Email is already taken
+          $ref: '#/components/responses/GenericApiResponse'
+
+  /user/login:
+    post:
+      tags:
+        - user
+      summary: Login a user
+      description: Logs in a user using email and password, and returns a user role and a JWT token.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  example: adopter@example.com
+                password:
+                  type: string
+                  example: P@ssw0rd
+      responses:
+        '200':
+          description: Login successful
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ApiResponse'
+                  - type: object
+                    properties:
+                      payload:
+                        type: object
+                        properties:
+                          username:
+                            type: string
+                            example: "John Doe"
+                          role:
+                            $ref: '#/components/schemas/Role'
+                          profileSet:
+                            type: boolean
+                            example: true
+                          token:
+                            type: string
+                            example: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+        '401':
+          description: Invalid email or password
+          $ref: '#/components/responses/GenericApiResponse'
+
+  /user/preferences:
+    post:
+      tags:
+        - user
+      summary: Add preferences for pet attributes grouped by attribute groups
+      security:
+        - BearerAuth: [ ]
+      description: >
+        Submit a set of preferences for different attribute groups. Each key in the JSON object
+        represents an attribute group name, and its corresponding value is a list of selected preferences
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties:
+                type: string
+                items:
+                  type: string
+                description: >
+                  A map where each key is the name of an attribute group, and the value is a list of
+                  selected preferences within that group.
+                example:
+                  "Physical Attributes": ["Brown", "Black"]
+                  "Behavioral Attributes": ["Active", "Calm"]
+                  "Health Attributes": ["Vaccinated", "Neutered"]
+      responses:
+        '201':
+          description: Preferences added successfully
+          $ref: '#/components/responses/GenericApiResponse'
+
+  /user/upload-image:
+    post:
+      tags:
+        - user
+      summary: Upload an image for a user
+      security:
+        - BearerAuth: [ ]
+      description: Uploads a profile image for a user.
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                image:
+                  type: string
+                  format: binary
+              required:
+                - image
+      responses:
+        '200':
+          description: Login successful
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ApiResponse'
+                  - type: object
+                    properties:
+                      payload:
+                        type: string
+                        example: /images/someImage.jpg
+        '400':
+          description: Invalid request or missing parameters
+          $ref: '#/components/responses/GenericApiResponse'
+
+  /user/get-profile:
+    get:
+      tags:
+        - user
+      summary: Retrieve user profile information
+      security:
+        - BearerAuth: [ ]
+      description: Fetches the profile details of the currently authenticated user
+        (adopter or shelter).
+      responses:
+        '200':
+          description: Profile details retrieved successfully
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ApiResponse'
+                  - type: object
+                    properties:
+                      payload:
+                        $ref: '#/components/schemas/User'
+        '401':
+          description: Unauthorized access
+          $ref: '#/components/responses/GenericApiResponse'
+
+  /user/update-profile:
+    put:
+      tags:
+        - user
+      summary: Update a user profile
+      security:
+        - BearerAuth: [ ]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+      responses:
+        '200':
+          description: User contacts updated successfully
+          $ref: '#/components/responses/GenericApiResponse'
+
+  /user/delete-profile/{id}:
+    delete:
+      tags:
+        - user
+      summary: Delete a user profile
+      description: Deletes the user profile with the specified ID. Requires authentication and authorization.
+      security:
+        - BearerAuth: [ ]
+      parameters:
+        - name: id
+          in: path
+          description: The userId for the profile that needs to be deleted
+          required: true
+          schema:
+            type: string
+      responses:
+        '204':
+          description: User profile successfully deleted.
+          $ref: '#/components/responses/GenericApiResponse'
+        '400':
+          description: Invalid username supplied
+          $ref: '#/components/responses/GenericApiResponse'
+        '401':
+          description: Unauthorized access.
+          $ref: '#/components/responses/GenericApiResponse'
+        '403':
+          description: Forbidden. User does not have permission to delete this profile
+          $ref: '#/components/responses/GenericApiResponse'
+        '404':
+          description: User not found
+          $ref: '#/components/responses/GenericApiResponse'
+
+  /pet/add-profile:
+    post:
+      tags:
+        - pet
+      summary: Add a new pet profile to the system
+      security:
+        - BearerAuth: [ ]
+      description: Add a new pet profile to the system.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Pet'
+      responses:
+        '201':
+          description: Pet added successfully
+          $ref: '#/components/responses/GenericApiResponse'
+        '405':
+          description: Invalid input
+          $ref: '#/components/responses/GenericApiResponse'
+
+  /pet/upload-image:
+    post:
+      tags:
+        - pet
+      summary: Upload an image for a pet
+      security:
+        - BearerAuth: [ ]
+      description: Uploads an image file for a specific pet.
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                image:
+                  type: string
+                  format: binary
+              required:
+                - image
+      responses:
+        '200':
+          description: Image uploaded
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ApiResponse'
+                  - type: object
+                    properties:
+                      payload:
+                        type: string
+                        example: /images/someImage.jpg
+        '400':
+          description: Invalid request or missing parameters
+          $ref: '#/components/responses/GenericApiResponse'
+
+  /pet/get-profile:
+    get:
+      tags:
+        - pet
+      summary: Retrieve all pet for the current user (shelter)
+      security:
+        - BearerAuth: [ ]
+      description: Fetches all pet profile details for the current user (shelter).
+      responses:
+        '200':
+          description: Profile details retrieved successfully
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ApiResponse'
+                  - type: object
+                    properties:
+                      payload:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/Pet'
+        '401':
+          description: Unauthorized access
+          $ref: '#/components/responses/GenericApiResponse'
+
+  /pet/get-profile/{petId}:
+    get:
+      tags:
+        - pet
+      summary: Retrieve pet profile information
+      security:
+        - BearerAuth: [ ]
+      description: Fetches the pet profile details.
+      parameters:
+        - name: petId
+          in: path
+          description: The unique ID of the pet profile to delete.
+          required: true
+          schema:
+            type: string
+            example: "12abd45f...."
+      responses:
+        '200':
+          description: Profile details retrieved successfully
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ApiResponse'
+                  - type: object
+                    properties:
+                      payload:
+                        $ref: '#/components/schemas/Pet'
+        '401':
+          description: Unauthorized access
+          $ref: '#/components/responses/GenericApiResponse'
+
+  /pet/update-profile:
+    put:
+      tags:
+        - pet
+      summary: Update pet profile
+      security:
+        - BearerAuth: [ ]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Pet'
+      responses:
+        '200':
+          description: Pet profile updated successfully
+          $ref: '#/components/responses/GenericApiResponse'
+        '400':
+          description: Invalid pet profile data
+          $ref: '#/components/responses/GenericApiResponse'
+
+  /pet/delete-profile/{petId}:
+    delete:
+      tags:
+        - pet
+      summary: Deletes a pet profile
+      security:
+        - BearerAuth: [ ]
+      description: Deletes the pet profile with the specified ID.
+      parameters:
+        - name: petId
+          in: path
+          description: The unique ID of the pet profile to delete.
+          required: true
+          schema:
+            type: string
+            example: "12abd45f...."
+      responses:
+        '204':
+          description: Pet profile successfully deleted.
+          $ref: '#/components/responses/GenericApiResponse'
+        '400':
+          description: Invalid pet profile value
+          $ref: '#/components/responses/GenericApiResponse'
+
+  /pet/attributes:
+    get:
+      tags:
+        - pet
+      summary: Get a list of all pet attributes grouped by Attribute Group
+      security:
+        - BearerAuth: [ ]
+      responses:
+        '200':
+          description: A list of attributes
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ApiResponse'
+                  - type: object
+                    properties:
+                      payload:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/AttributeGroup'
+
+
+  /matching/recommendation/accepted:
+    get:
+      tags:
+        - matching
+      summary: Get a list of accepted recommendations
+      security:
+        - BearerAuth: [ ]
+      responses:
+        '200':
+          description: A list of recommended pets
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ApiResponse'
+                  - type: object
+                    properties:
+                      payload:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/Recommendation'
+
+  /matching/recommendation/next:
+    get:
+      tags:
+        - matching
+      summary: Get the next recommendation for the adopter
+      security:
+        - BearerAuth: [ ]
+      parameters:
+        - in: query
+          name: num
+          schema:
+            type: integer
+            minimum: 1
+            default: 1
+          description: The number of recomendations to return
+      responses:
+        '200':
+          description: The next recommendation item
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ApiResponse'
+                  - type: object
+                    properties:
+                      payload:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/Recommendation'
+
+  /matching/recommendation/{id}/accept:
+    put:
+      tags:
+        - matching
+      summary: Accept a recommendation and create an adoption
+      security:
+        - BearerAuth: [ ]
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: The ID of the recommendation to accept
+      responses:
+        '200':
+          description: The next recommendation item
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ApiResponse'
+                  - type: object
+                    properties:
+                      payload:
+                        $ref: '#/components/schemas/Recommendation'
+
+  /matching/recommendation/{id}/reject:
+    put:
+      tags:
+        - matching
+      summary: Reject a recommendation
+      security:
+        - BearerAuth: [ ]
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: The ID of the recommendation to reject
+      responses:
+        '200':
+          description: The next recommendation item
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ApiResponse'
+                  - type: object
+                    properties:
+                      payload:
+                        $ref: '#/components/schemas/Recommendation'
+
+  /adoption:
+    post:
+      tags:
+        - adoption
+      summary: Creates new adoption
+      security:
+        - BearerAuth: [ ]
+      description: Creates new adoption
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                recommendationId:
+                  type: string
+                  example: "0adf23ff..."
+              additionalProperties:
+                type: string
+                description: Additional questions
+                example:
+                  "question": "Answer"
+      responses:
+        '200':
+          description: Adoption updated sussessfuly
+          $ref: '#/components/responses/GenericApiResponse'
+        '401':
+          description: Unauthorized access
+          $ref: '#/components/responses/GenericApiResponse'
+
+
+  /adoption/{id}/cancel:
+    put:
+      tags:
+        - adoption
+      summary: Cancel adoption
+      security:
+        - BearerAuth: [ ]
+      description: Adopter cancels adoption
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: The ID of the adoption to cancel
+      responses:
+        '200':
+          description: Adoption canceled sussessfuly
+          $ref: '#/components/responses/GenericApiResponse'
+        '401':
+          description: Unauthorized access
+          $ref: '#/components/responses/GenericApiResponse'
+
+  /adoption/{id}/status:
+    put:
+      tags:
+        - adoption
+      summary: Retrieve adoption status
+      security:
+        - BearerAuth: [ ]
+      description: Fetches the current status of adoptions for the authenticated adopter.
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: The ID of the adoption to update
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Adoption'
+      responses:
+        '200':
+          description: Adoption updated sussessfuly
+          $ref: '#/components/responses/GenericApiResponse'
+        '401':
+          description: Unauthorized access
+          $ref: '#/components/responses/GenericApiResponse'
+
+  /adoption/status:
+    get:
+      tags:
+        - adoption
+      summary: Retrieve adoption status
+      security:
+        - BearerAuth: [ ]
+      description: Fetches the current status of adoptions for the authenticated adopter.
+      responses:
+        '200':
+          description: Adoption status retrieved successfully
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ApiResponse'
+                  - type: object
+                    properties:
+                      payload:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/Adoption'
+        '401':
+          description: Unauthorized access
+          $ref: '#/components/responses/GenericApiResponse'
+
+  /adoption/story:
+    get:
+      tags:
+        - adoption
+      summary: Retrieve a list of adoption stories
+      description: Returns a list of adoption stories with the specified number of
+        objects.
+      parameters:
+        - in: query
+          name: N
+          schema:
+            type: integer
+            minimum: 1
+            default: 5
+          description: The number of adoption story objects to return
+      responses:
+        '200':
+          description: A list of adoption stories
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ApiResponse'
+                  - type: object
+                    properties:
+                      payload:
+                        type: array
+                        items:
+                          type: object
+                          properties:
+                            author:
+                              type: string
+                              description: The author of the adoption story
+                              example: John Doe
+                            title:
+                              type: string
+                              description: The title of the adoption story
+                              example: A Happy Ending for Max
+                            text:
+                              type: string
+                              description: The content of the adoption story
+                              example: Max was found wandering the streets and was taken in
+                                by a local shelter. After weeks of care, he found a loving
+                                home with the Doe family.
+
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT # Optional, but helps to specify the token type
+
+  responses:
+    GenericApiResponse:
+      description: Generic API response
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ApiResponse'
+
+  schemas:
+    ApiResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        message:
+          type: string
+          example: Operation completed successfully
+
+    Role:
+      type: string
+      enum:
+        - adopter
+        - shelter
+      example: adopter
+
+    RecommendationStatus:
+      type: string
+      enum:
+        - new
+        - accepted
+        - rejected
+      example: new
+
+    AdoptionStatus:
+      type: string
+      enum:
+        - Submitted
+        - Reviewing
+        - Waitlisted
+        - Interviewing
+        - Decision Making
+        - Adopted
+        - Rejected
+        - Cancelled
+      example: Submitted
+
+    Adoption:
+      properties:
+        adoptionId:
+          type: string
+          example: "0adf23ff..."
+        adopterId:
+          type: string
+          example: "0adf23ff..."
+        shelterUserId:
+          type: string
+          example: "0adf23ff..."
+        pet:
+          $ref: '#/components/schemas/Pet'
+        adopter:
+          $ref: '#/components/schemas/User'
+        status:
+          $ref: '#/components/schemas/AdoptionStatus'
+        date:
+          type: string
+          format: date
+          example: '2023-05-15'
+      additionalProperties:
+        type: string
+        description: >
+          A map where each key is the name of an attribute group, and the value is a list of
+          selected preferences within that group.
+        example:
+          "gender": "male"
+          "environment": "house"
+
+    Pet:
+      properties:
+        petId:
+          type: string
+          example: "0adf23ff..."
+        shelterUserId:
+          type: string
+          example: "0adf23ff..."
+        petName:
+          type: string
+          example: "Snooppy"
+        imageUrl:
+          type: string
+          example: ["http://some.site/images/image.jpg"]
+        status:
+          enum:
+            - available
+            - adopted
+      additionalProperties:
+        type: string
+        description: >
+          A map where each key is the name of an attribute group, and the value is a list of
+          selected preferences within that group.
+        example:
+          "gender": "male"
+          "environment": "house"
+      type: object
+
+    User:
+      properties:
+        userId:
+          type: string
+          example: "0adf23ff..."
+        role:
+          $ref: '#/components/schemas/Role'
+        username:
+          type: string
+          example: theUser
+        email:
+          type: string
+          example: john@email.com
+        password:
+          type: string
+          example: 12345
+        phone:
+          type: string
+          example: 12345
+        address:
+          type: string
+          example: 1 Young St.
+        city:
+          type: string
+          example: Toronto
+        province:
+          type: string
+          example: Ontario
+        postalCode:
+          type: string
+          example: A1B 2C3
+        imageUrl:
+          type: string
+          example: http://some.site/images.image.jpg
+        preferences:
+          type: object
+          additionalProperties:
+            type: string
+            items:
+              type: string
+            description: >
+              A map where each key is the name of an attribute group, and the value is a list of
+              selected preferences within that group.
+            example:
+              "Physical Attributes": [ "Brown", "Black" ]
+              "Behavioral Attributes": [ "Active", "Calm" ]
+              "Health Attributes": [ "Vaccinated", "Neutered" ]
+      type: object
+
+    Recommendation:
+      type: object
+      properties:
+        id:
+          type: string
+          example: "adf12eafd770..."
+        petId:
+          type: string
+          example: "adf12eafd770..."
+        date:
+          type: string
+          format: date
+          example: '2023-05-15'
+        status:
+          $ref: '#/components/schemas/RecommendationStatus'
+        pet:
+          $ref: '#/components/schemas/Pet'
+
+    AttributeGroup:
+      type: object
+      properties:
+        name:
+          type: string
+          example: petGender
+        description:
+          type: string
+          example: Pet Gender
+        supportsOther:
+          type: boolean
+          example: true
+        values:
+          type: array
+          items:
+            type: string
+          example: [ "male", "female" ]
+        question:
+          type: string
+          example: What is the preferred Gender for your pet?

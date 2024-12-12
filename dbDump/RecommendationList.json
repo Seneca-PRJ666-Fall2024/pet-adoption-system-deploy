@@ -1,0 +1,120 @@
+[{
+  "_id": {
+    "$oid": "6759f7805b88c720700b917c"
+  },
+  "userId": "67580c4104e99f6cd9ddbdf1",
+  "date": {
+    "$date": "2024-12-11T05:00:00.000Z"
+  },
+  "_class": "com.prj666.group1.petadoptionsystem.model.RecommendationList"
+},
+{
+  "_id": {
+    "$oid": "6759f8bf5b88c720700b9186"
+  },
+  "userId": "674d626ed497916b9540a139",
+  "date": {
+    "$date": "2024-12-11T05:00:00.000Z"
+  },
+  "_class": "com.prj666.group1.petadoptionsystem.model.RecommendationList"
+},
+{
+  "_id": {
+    "$oid": "675a02bc7b99272ee2421e94"
+  },
+  "userId": "6759ff0d7b99272ee2421e76",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "_class": "com.prj666.group1.petadoptionsystem.model.RecommendationList"
+},
+{
+  "_id": {
+    "$oid": "675a083b7b99272ee2421eb1"
+  },
+  "userId": "675a07da7b99272ee2421e9e",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "_class": "com.prj666.group1.petadoptionsystem.model.RecommendationList"
+},
+{
+  "_id": {
+    "$oid": "675a0ef37b99272ee2421f13"
+  },
+  "userId": "675a0ed97b99272ee2421f0b",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "_class": "com.prj666.group1.petadoptionsystem.model.RecommendationList"
+},
+{
+  "_id": {
+    "$oid": "675a15847b99272ee2421f2a"
+  },
+  "userId": "6750fad1f6166f39256e7dbf",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "_class": "com.prj666.group1.petadoptionsystem.model.RecommendationList"
+},
+{
+  "_id": {
+    "$oid": "675a15d27b99272ee2421f38"
+  },
+  "userId": "6759f8db5b88c720700b9187",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "_class": "com.prj666.group1.petadoptionsystem.model.RecommendationList"
+},
+{
+  "_id": {
+    "$oid": "675a16ac7b99272ee2421f3f"
+  },
+  "userId": "674b92827ab8a8680078e7f4",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "_class": "com.prj666.group1.petadoptionsystem.model.RecommendationList"
+},
+{
+  "_id": {
+    "$oid": "675a1afb7b99272ee2421f56"
+  },
+  "userId": "675a178e7b99272ee2421f48",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "_class": "com.prj666.group1.petadoptionsystem.model.RecommendationList"
+},
+{
+  "_id": {
+    "$oid": "675a21227b99272ee2421f71"
+  },
+  "userId": "675a1f2a7b99272ee2421f5d",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "_class": "com.prj666.group1.petadoptionsystem.model.RecommendationList"
+},
+{
+  "_id": {
+    "$oid": "675a220d7b99272ee2421f79"
+  },
+  "userId": "675a21fa7b99272ee2421f77",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "_class": "com.prj666.group1.petadoptionsystem.model.RecommendationList"
+},
+{
+  "_id": {
+    "$oid": "675a29b27b99272ee2421f9c"
+  },
+  "userId": "675a277d7b99272ee2421f84",
+  "date": {
+    "$date": "2024-12-12T00:00:00.000Z"
+  },
+  "_class": "com.prj666.group1.petadoptionsystem.model.RecommendationList"
+}]

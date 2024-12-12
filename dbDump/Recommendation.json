@@ -1,0 +1,676 @@
+[{
+  "_id": {
+    "$oid": "675a15857b99272ee2421f2b"
+  },
+  "recommendationListId": "675a15847b99272ee2421f2a",
+  "petId": "6743b8723d2ba21dfa8090d7",
+  "userId": "6750fad1f6166f39256e7dbf",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a15857b99272ee2421f2c"
+  },
+  "recommendationListId": "675a15847b99272ee2421f2a",
+  "petId": "6743b8723d2ba21dfa8090d9",
+  "userId": "6750fad1f6166f39256e7dbf",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a15857b99272ee2421f2d"
+  },
+  "recommendationListId": "675a15847b99272ee2421f2a",
+  "petId": "6743b8723d2ba21dfa8090d6",
+  "userId": "6750fad1f6166f39256e7dbf",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a15857b99272ee2421f2e"
+  },
+  "recommendationListId": "675a15847b99272ee2421f2a",
+  "petId": "6743b8723d2ba21dfa8090d8",
+  "userId": "6750fad1f6166f39256e7dbf",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a15857b99272ee2421f2f"
+  },
+  "recommendationListId": "675a15847b99272ee2421f2a",
+  "petId": "6743b8723d2ba21dfa8090da",
+  "userId": "6750fad1f6166f39256e7dbf",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a15d27b99272ee2421f39"
+  },
+  "recommendationListId": "675a15d27b99272ee2421f38",
+  "petId": "6743b8723d2ba21dfa8090d9",
+  "userId": "6759f8db5b88c720700b9187",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a15d37b99272ee2421f3a"
+  },
+  "recommendationListId": "675a15d27b99272ee2421f38",
+  "petId": "6743b8723d2ba21dfa8090db",
+  "userId": "6759f8db5b88c720700b9187",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a15d37b99272ee2421f3b"
+  },
+  "recommendationListId": "675a15d27b99272ee2421f38",
+  "petId": "674c98e7bcf9a7b592a895e6",
+  "userId": "6759f8db5b88c720700b9187",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a15d37b99272ee2421f3c"
+  },
+  "recommendationListId": "675a15d27b99272ee2421f38",
+  "petId": "674c98e7bcf9a7b592a895e8",
+  "userId": "6759f8db5b88c720700b9187",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a15d37b99272ee2421f3d"
+  },
+  "recommendationListId": "675a15d27b99272ee2421f38",
+  "petId": "67555f43e0624562360c332f",
+  "userId": "6759f8db5b88c720700b9187",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a16ac7b99272ee2421f40"
+  },
+  "recommendationListId": "675a16ac7b99272ee2421f3f",
+  "petId": "6743b8723d2ba21dfa8090d9",
+  "userId": "674b92827ab8a8680078e7f4",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a16ac7b99272ee2421f41"
+  },
+  "recommendationListId": "675a16ac7b99272ee2421f3f",
+  "petId": "6743b8723d2ba21dfa8090da",
+  "userId": "674b92827ab8a8680078e7f4",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a16ac7b99272ee2421f42"
+  },
+  "recommendationListId": "675a16ac7b99272ee2421f3f",
+  "petId": "6743b8723d2ba21dfa8090db",
+  "userId": "674b92827ab8a8680078e7f4",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a16ad7b99272ee2421f43"
+  },
+  "recommendationListId": "675a16ac7b99272ee2421f3f",
+  "petId": "674c98e7bcf9a7b592a895e6",
+  "userId": "674b92827ab8a8680078e7f4",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a16ad7b99272ee2421f44"
+  },
+  "recommendationListId": "675a16ac7b99272ee2421f3f",
+  "petId": "674c98e7bcf9a7b592a895e8",
+  "userId": "674b92827ab8a8680078e7f4",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a18e27b99272ee2421f51"
+  },
+  "recommendationListId": "675a18e27b99272ee2421f50",
+  "petId": "6743b8723d2ba21dfa8090d7",
+  "userId": "675a178e7b99272ee2421f48",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "REJECTED",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a18e27b99272ee2421f52"
+  },
+  "recommendationListId": "675a18e27b99272ee2421f50",
+  "petId": "6743b8723d2ba21dfa8090d6",
+  "userId": "675a178e7b99272ee2421f48",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "ACCEPTED",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a1afb7b99272ee2421f57"
+  },
+  "recommendationListId": "675a1afb7b99272ee2421f56",
+  "petId": "6743b8723d2ba21dfa8090d9",
+  "userId": "675a178e7b99272ee2421f48",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "ACCEPTED",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a1afc7b99272ee2421f58"
+  },
+  "recommendationListId": "675a1afb7b99272ee2421f56",
+  "petId": "6743b8723d2ba21dfa8090da",
+  "userId": "675a178e7b99272ee2421f48",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "REJECTED",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a1afc7b99272ee2421f59"
+  },
+  "recommendationListId": "675a1afb7b99272ee2421f56",
+  "petId": "6743b8723d2ba21dfa8090db",
+  "userId": "675a178e7b99272ee2421f48",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a1afc7b99272ee2421f5a"
+  },
+  "recommendationListId": "675a1afb7b99272ee2421f56",
+  "petId": "674c98e7bcf9a7b592a895e6",
+  "userId": "675a178e7b99272ee2421f48",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a1afc7b99272ee2421f5b"
+  },
+  "recommendationListId": "675a1afb7b99272ee2421f56",
+  "petId": "674c98e7bcf9a7b592a895e8",
+  "userId": "675a178e7b99272ee2421f48",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a20e57b99272ee2421f6b"
+  },
+  "recommendationListId": "675a20e57b99272ee2421f6a",
+  "petId": "6743b8723d2ba21dfa8090d9",
+  "userId": "675a1f2a7b99272ee2421f5d",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "REJECTED",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a20e67b99272ee2421f6c"
+  },
+  "recommendationListId": "675a20e57b99272ee2421f6a",
+  "petId": "6743b8723d2ba21dfa8090da",
+  "userId": "675a1f2a7b99272ee2421f5d",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "ACCEPTED",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a20e67b99272ee2421f6d"
+  },
+  "recommendationListId": "675a20e57b99272ee2421f6a",
+  "petId": "6743b8723d2ba21dfa8090db",
+  "userId": "675a1f2a7b99272ee2421f5d",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "ACCEPTED",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a20e67b99272ee2421f6e"
+  },
+  "recommendationListId": "675a20e57b99272ee2421f6a",
+  "petId": "674c98e7bcf9a7b592a895e6",
+  "userId": "675a1f2a7b99272ee2421f5d",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "ACCEPTED",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a21227b99272ee2421f72"
+  },
+  "recommendationListId": "675a21227b99272ee2421f71",
+  "petId": "6743b8723d2ba21dfa8090d7",
+  "userId": "675a1f2a7b99272ee2421f5d",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a21227b99272ee2421f73"
+  },
+  "recommendationListId": "675a21227b99272ee2421f71",
+  "petId": "6743b8723d2ba21dfa8090d6",
+  "userId": "675a1f2a7b99272ee2421f5d",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a21237b99272ee2421f74"
+  },
+  "recommendationListId": "675a21227b99272ee2421f71",
+  "petId": "6743b8723d2ba21dfa8090d8",
+  "userId": "675a1f2a7b99272ee2421f5d",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a21237b99272ee2421f75"
+  },
+  "recommendationListId": "675a21227b99272ee2421f71",
+  "petId": "674c98e7bcf9a7b592a895e3",
+  "userId": "675a1f2a7b99272ee2421f5d",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a21237b99272ee2421f76"
+  },
+  "recommendationListId": "675a21227b99272ee2421f71",
+  "petId": "674c98e7bcf9a7b592a895e4",
+  "userId": "675a1f2a7b99272ee2421f5d",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a220d7b99272ee2421f7a"
+  },
+  "recommendationListId": "675a220c7b99272ee2421f78",
+  "petId": "6743b8723d2ba21dfa8090d7",
+  "userId": "675a21fa7b99272ee2421f77",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a220d7b99272ee2421f7b"
+  },
+  "recommendationListId": "675a220c7b99272ee2421f78",
+  "petId": "6743b8723d2ba21dfa8090d9",
+  "userId": "675a21fa7b99272ee2421f77",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a220d7b99272ee2421f7c"
+  },
+  "recommendationListId": "675a220c7b99272ee2421f78",
+  "petId": "6743b8723d2ba21dfa8090d6",
+  "userId": "675a21fa7b99272ee2421f77",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a220d7b99272ee2421f7d"
+  },
+  "recommendationListId": "675a220c7b99272ee2421f78",
+  "petId": "6743b8723d2ba21dfa8090d8",
+  "userId": "675a21fa7b99272ee2421f77",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a220d7b99272ee2421f7e"
+  },
+  "recommendationListId": "675a220d7b99272ee2421f79",
+  "petId": "6743b8723d2ba21dfa8090d7",
+  "userId": "675a21fa7b99272ee2421f77",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a220d7b99272ee2421f7f"
+  },
+  "recommendationListId": "675a220c7b99272ee2421f78",
+  "petId": "6743b8723d2ba21dfa8090da",
+  "userId": "675a21fa7b99272ee2421f77",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a220d7b99272ee2421f80"
+  },
+  "recommendationListId": "675a220d7b99272ee2421f79",
+  "petId": "6743b8723d2ba21dfa8090d9",
+  "userId": "675a21fa7b99272ee2421f77",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a220d7b99272ee2421f81"
+  },
+  "recommendationListId": "675a220d7b99272ee2421f79",
+  "petId": "6743b8723d2ba21dfa8090d6",
+  "userId": "675a21fa7b99272ee2421f77",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a220d7b99272ee2421f82"
+  },
+  "recommendationListId": "675a220d7b99272ee2421f79",
+  "petId": "6743b8723d2ba21dfa8090d8",
+  "userId": "675a21fa7b99272ee2421f77",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a220d7b99272ee2421f83"
+  },
+  "recommendationListId": "675a220d7b99272ee2421f79",
+  "petId": "6743b8723d2ba21dfa8090da",
+  "userId": "675a21fa7b99272ee2421f77",
+  "date": {
+    "$date": "2024-12-11T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a297f7b99272ee2421f92"
+  },
+  "recommendationListId": "675a297e7b99272ee2421f91",
+  "petId": "6743b8723d2ba21dfa8090d9",
+  "userId": "675a277d7b99272ee2421f84",
+  "date": {
+    "$date": "2024-12-12T00:00:00.000Z"
+  },
+  "status": "REJECTED",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a297f7b99272ee2421f93"
+  },
+  "recommendationListId": "675a297e7b99272ee2421f91",
+  "petId": "6743b8723d2ba21dfa8090da",
+  "userId": "675a277d7b99272ee2421f84",
+  "date": {
+    "$date": "2024-12-12T00:00:00.000Z"
+  },
+  "status": "REJECTED",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a297f7b99272ee2421f94"
+  },
+  "recommendationListId": "675a297e7b99272ee2421f91",
+  "petId": "6743b8723d2ba21dfa8090db",
+  "userId": "675a277d7b99272ee2421f84",
+  "date": {
+    "$date": "2024-12-12T00:00:00.000Z"
+  },
+  "status": "ACCEPTED",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a297f7b99272ee2421f95"
+  },
+  "recommendationListId": "675a297e7b99272ee2421f91",
+  "petId": "674c98e7bcf9a7b592a895e6",
+  "userId": "675a277d7b99272ee2421f84",
+  "date": {
+    "$date": "2024-12-12T00:00:00.000Z"
+  },
+  "status": "ACCEPTED",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a297f7b99272ee2421f96"
+  },
+  "recommendationListId": "675a297e7b99272ee2421f91",
+  "petId": "674c98e7bcf9a7b592a895e8",
+  "userId": "675a277d7b99272ee2421f84",
+  "date": {
+    "$date": "2024-12-12T00:00:00.000Z"
+  },
+  "status": "REJECTED",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a29a27b99272ee2421f98"
+  },
+  "recommendationListId": "675a29a17b99272ee2421f97",
+  "petId": "67555f43e0624562360c332f",
+  "userId": "675a277d7b99272ee2421f84",
+  "date": {
+    "$date": "2024-12-12T00:00:00.000Z"
+  },
+  "status": "REJECTED",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a29b27b99272ee2421f9d"
+  },
+  "recommendationListId": "675a29b27b99272ee2421f9c",
+  "petId": "6743b8723d2ba21dfa8090d7",
+  "userId": "675a277d7b99272ee2421f84",
+  "date": {
+    "$date": "2024-12-12T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a29b27b99272ee2421f9e"
+  },
+  "recommendationListId": "675a29b27b99272ee2421f9c",
+  "petId": "6743b8723d2ba21dfa8090d6",
+  "userId": "675a277d7b99272ee2421f84",
+  "date": {
+    "$date": "2024-12-12T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a29b27b99272ee2421f9f"
+  },
+  "recommendationListId": "675a29b27b99272ee2421f9c",
+  "petId": "6743b8723d2ba21dfa8090d8",
+  "userId": "675a277d7b99272ee2421f84",
+  "date": {
+    "$date": "2024-12-12T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a29b27b99272ee2421fa0"
+  },
+  "recommendationListId": "675a29b27b99272ee2421f9c",
+  "petId": "674c98e7bcf9a7b592a895e3",
+  "userId": "675a277d7b99272ee2421f84",
+  "date": {
+    "$date": "2024-12-12T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+},
+{
+  "_id": {
+    "$oid": "675a29b37b99272ee2421fa1"
+  },
+  "recommendationListId": "675a29b27b99272ee2421f9c",
+  "petId": "674c98e7bcf9a7b592a895e4",
+  "userId": "675a277d7b99272ee2421f84",
+  "date": {
+    "$date": "2024-12-12T00:00:00.000Z"
+  },
+  "status": "NEW",
+  "_class": "com.prj666.group1.petadoptionsystem.model.Recommendation"
+}]

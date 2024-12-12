@@ -1,0 +1,480 @@
+[{
+  "_id": {
+    "$oid": "671972aa32ff221c9dbb8c5a"
+  },
+  "email": "platonovmail@mail.ru",
+  "password": "$2a$10$4CdKoqw9sox2MJex/HDvGO9iQUsUzDSVrrmga2Itl0Yd35Fzc48Zu",
+  "_class": "com.prj666.group1.petadoptionsystem.model.user.User",
+  "accountType": "SHELTER"
+},
+{
+  "_id": {
+    "$oid": "6723f70d85d3953b314ee79f"
+  },
+  "email": "test1@mail.com",
+  "password": "$2a$10$Y0DE0kdbMhuWTppi85N2J.c6Y2nb/.wxYHE7xn3Zt89/ug0L9Qq3G",
+  "accountType": "ADOPTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0MUBtYWlsLmNvbSIsImlhdCI6MTczMDQxMDI2NiwiZXhwIjoxNzMwNDEzODY2fQ.1s6SvgWZHlPQ0huu3nvUH27D68HHuFejH91H2OWmj5I",
+  "_class": "com.prj666.group1.petadoptionsystem.model.user.User"
+},
+{
+  "_id": {
+    "$oid": "673e4e8a6b020a67081ffa1f"
+  },
+  "email": "test@mail.com",
+  "password": "$2a$10$2xOgDOHAcgbgP.YSaqVt.ubWPREzG89yEnLayhB3SwAAj.QZYLllG",
+  "accountType": "ADOPTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0QG1haWwuY29tIiwiaWF0IjoxNzMyMTM2NTk1LCJleHAiOjE3MzIxNDAxOTV9.Q2Cb3bcjO3u9odor6lbqaF1dVW7JntHjxeFtF42tEi4",
+  "address": "Toronto",
+  "phone": "123",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "673e6154aa36842614bc66aa"
+  },
+  "email": "mytest@mail.com",
+  "password": "$2a$10$FaxMHfkg0/fanUFLdVF4DOUulTn5zgKu9lVismyxAKYdVE.3qmMui",
+  "accountType": "ADOPTER",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "673e634eaa36842614bc66ab"
+  },
+  "email": "mail@mail.com",
+  "password": "$2a$10$ePE9IMY8LWyYIdIJorivuu9utVV7zN8OSSAUAqfx1Ii1yLyIwKPD.",
+  "accountType": "ADOPTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtYWlsQG1haWwuY29tIiwiaWF0IjoxNzMzMDEwMzA3LCJleHAiOjE3MzMwOTY3MDd9.1oi3t6rzUx4xvYXzAa5KDXUpWJWwHqNOC-BGUE4WRSg",
+  "profileSet": false,
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "673e6b8878919322a79e2f42"
+  },
+  "email": "mail1@test.com",
+  "password": "$2a$10$Ki3ntrlN/nuXcpQ.gR8yrexpqlLENOksRRqw3HbbV8Xf6s0MtWwpi",
+  "accountType": "ADOPTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtYWlsMUB0ZXN0LmNvbSIsImlhdCI6MTczMjE0NDAyMywiZXhwIjoxNzMyMTQ3NjIzfQ.KKB9mEaPAINUSLha8QVlJGwd3JV4bDiBUSZEzNZ0RDs",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "673e7f9378919322a79e2f43"
+  },
+  "email": "test777",
+  "password": "$2a$10$RM./yF/75kK3j3uouUDsd.EkxjeF.201XhRcaduDhDvvOwE7R0I/O",
+  "accountType": "ADOPTER",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "673e7fb078919322a79e2f44"
+  },
+  "email": "test777@gmail.com",
+  "password": "$2a$10$caZSo2EBWMRw7If8FVPM3e5AdikPrYy3aYQIXhZHTVCcvvo6UhVmy",
+  "accountType": "ADOPTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0Nzc3QGdtYWlsLmNvbSIsImlhdCI6MTczMjE1MDk2OSwiZXhwIjoxNzMyMTU0NTY5fQ.DIoLc7-RDNH3sb_eAwY1JO9iMW9Zr3yZpB9FA8WV2nM",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "6743a1ca78919322a79e2f45"
+  },
+  "email": "asasasa",
+  "password": "$2a$10$/OcnRAMHfZdXJFNOduWxr.dRcU0teTWS0VNWS5iBFhK14wbuPxP7m",
+  "accountType": "SHELTER",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "67476abf78919322a79e2f46"
+  },
+  "email": "test555@gmail.com",
+  "password": "$2a$10$8K/vXSsGYrapUTk0fHvq0.fnG/AD2hLfmbVxxCN24CNjZ02RdvpvW",
+  "accountType": "ADOPTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0NTU1QGdtYWlsLmNvbSIsImlhdCI6MTczMzE1NTgyMCwiZXhwIjoxNzMzMjQyMjIwfQ.LJBfdZEVZTu77GiHkK6Ntlt7iPLwBXM70PJxOH-ho7A",
+  "profileSet": false,
+  "recommendationList": "674ddc0ad497916b9540a142",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "674a3030e03d4a49e0152e53"
+  },
+  "email": "testmail@mail.com",
+  "password": "$2a$10$b8645viNCe/fzJL9InQq0eVPoIzzdAN1WxSW4CPLR31PfECnGjZfq",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0bWFpbEBtYWlsLmNvbSIsImlhdCI6MTczMjkxNTQwMywiZXhwIjoxNzMzMDAxODAzfQ.fz4GYbBvhXhLGBeirYRhlOdvPMkKDfkaJbR4Y_-LS64",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User",
+  "accountType": "ADOPTER"
+},
+{
+  "_id": {
+    "$oid": "674a319ce1f67020ffc63a7e"
+  },
+  "email": "testmail2@mail.com",
+  "password": "$2a$10$ueKBUVyyfznSXEz87qIfSeWAXAuYFsfm5BER.5EMooiZ3s/QhlGNy",
+  "accountType": "ADOPTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0bWFpbDJAbWFpbC5jb20iLCJpYXQiOjE3MzI5MTU2MjYsImV4cCI6MTczMzAwMjAyNn0.P-hmvoT__9MTrRwhK8YMN7NNnZvv5nPWfiR_WemXiwI",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "674a396062aca37599315dd1"
+  },
+  "email": "mytest123@mail.com",
+  "password": "$2a$10$HxeMDFdBpVOVT68/iLHnmu0gQ0jZvU/08L70cvb1ap1ytKUxDZtRi",
+  "accountType": "SHELTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJteXRlc3QxMjNAbWFpbC5jb20iLCJpYXQiOjE3MzI5MTc2ODYsImV4cCI6MTczMzAwNDA4Nn0.5lMcrciMEVj5XNkcdI3r15_9N064mS7ZxxBoQ9YuQ8Y",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "674b82e262aca37599315dd2"
+  },
+  "email": "mail@test.com",
+  "password": "$2a$10$PcGTT9H/Bn2/L7oL1wkYvuW7T9rPKheXpgZYd2drK070VvMxU2cmi",
+  "accountType": "ADOPTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtYWlsQHRlc3QuY29tIiwiaWF0IjoxNzMzMDAxOTYyLCJleHAiOjE3MzMwODgzNjJ9.-u98_AKsYb2Ir2pAy7rsDc-euwpMGdNlR2K5tSV0Zvg",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "674b86ec62aca37599315dd3"
+  },
+  "email": "mail_shelter@mail.com",
+  "password": "$2a$10$mRPUQ51BEG8/JFTy9Rq9We6ryp73pee3nUNmBYWQrB4lEEWGgCZlq",
+  "accountType": "SHELTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtYWlsX3NoZWx0ZXJAbWFpbC5jb20iLCJpYXQiOjE3MzMwMDM1NzIsImV4cCI6MTczMzA4OTk3Mn0.vSQmmfKoOrKu5ByhPYjnWJyDOwyAKjy60tsvv2i8vZA",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "674b8eb662aca37599315dd4"
+  },
+  "email": "mail1@mail.com",
+  "password": "$2a$10$zL6wHxvBChaSqaJlMq/TY.puITE6svvkr6aKQebnROc3tbd0y.EjW",
+  "accountType": "ADOPTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtYWlsMUBtYWlsLmNvbSIsImlhdCI6MTczMzAwNDk5MCwiZXhwIjoxNzMzMDkxMzkwfQ.FaC5X4UdebtjT8kZs8Ql28SBZN7IxcTkDdplx22S5M0",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "674b92827ab8a8680078e7f4"
+  },
+  "email": "adopter@mail.com",
+  "password": "$2a$10$TcY4wtCqfWfbKg2GFp.G2O/66mIJ0VXD.6/8weUaMkZN2SEoIRzZu",
+  "accountType": "ADOPTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG9wdGVyQG1haWwuY29tIiwiaWF0IjoxNzMzOTYxMDkyLCJleHAiOjE3MzQwNDc0OTJ9.sFqsMat8y_FAje7JA7Mtl0MHQt-5N19S4tOdCnG7HOg",
+  "name": "Test Name",
+  "address": "Test Address",
+  "city": "Toronto",
+  "province": "ON",
+  "postalCode": "M4Y 4MY",
+  "phone": "123456",
+  "imageUrl": "/images/7bba1360-96f0-4544-96c3-b919969f31d0.webp",
+  "profileSet": true,
+  "recommendationList": "675a16ac7b99272ee2421f3f",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "674b97dc62aca37599315dd5"
+  },
+  "email": "dssds",
+  "password": "$2a$10$cdqr8eqpeHLZZXiR8VJWQugQqy3VuGVas9GS.SmOt3HOSo3XNx8qO",
+  "accountType": "SHELTER",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "674baca5bf3fd90d430de4a6"
+  },
+  "email": "shelter@mail.com",
+  "password": "$2a$10$sPnVwpVuovr/W7PG8jpbqu9.bfliroeUmoWfOIjz6eSze4Xpf18yK",
+  "accountType": "SHELTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaGVsdGVyQG1haWwuY29tIiwiaWF0IjoxNzMzOTYyMjkyLCJleHAiOjE3MzQwNDg2OTJ9.XTp6ZcA7uuvM161FSCVIxNcTSw61TEHqgcIwfZu0udw",
+  "name": "Test Shelter",
+  "address": "Shelter Street",
+  "city": "Toronto",
+  "province": "ON",
+  "postalCode": "M4M 6X6",
+  "phone": "1234567",
+  "imageUrl": "/images/4e9c61eb-065c-46b5-87ee-9545b8628854.webp",
+  "profileSet": true,
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "674d237d48d3074c08bb6bc3"
+  },
+  "email": "test@box.com",
+  "password": "$2a$10$E6hySQvQboIGNAhPQUxYc.PaYwhDf3vnsw.9rgDRAghdN0CQX8H56",
+  "accountType": "ADOPTER",
+  "profileSet": false,
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "674ddcb3d497916b9540a148"
+  },
+  "email": "test444@gmail.com",
+  "password": "$2a$10$lN6CgO.yVigazVuimBpkB.6dTt88qeh.rO3Jgn9kVXvgZvoT9BpPW",
+  "accountType": "SHELTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0NDQ0QGdtYWlsLmNvbSIsImlhdCI6MTczMzE1NzQ1NywiZXhwIjoxNzMzMjQzODU3fQ._3EQeKKsJ5K-6AHs5E1GAfVd1ZgYlYc43MiZdLlNiWU",
+  "name": "test444",
+  "address": ",,,",
+  "profileSet": true,
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "6750fad1f6166f39256e7dbf"
+  },
+  "email": "test@hotmail.com",
+  "password": "$2a$10$xtCl0.8IOgD6C2ZKH8Cj1er83NtOowfD1gHHKrxWFZYIk0XAM.lpK",
+  "accountType": "ADOPTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0QGhvdG1haWwuY29tIiwiaWF0IjoxNzMzOTU0NDQ1LCJleHAiOjE3MzQwNDA4NDV9.Ag6PtzjsaRQ_Tc8IPXw7twVbE6d_8cJQ0qu2iU_1Gl0",
+  "name": "Parjad",
+  "address": "1750 Finch Avenue East ",
+  "city": "Toronto",
+  "province": "Ontario",
+  "postalCode": "M2J 2X5",
+  "phone": "6471234567",
+  "profileSet": true,
+  "recommendationList": "675a15847b99272ee2421f2a",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "675227ddc818791a7817317e"
+  },
+  "email": "adopter3@mail.com",
+  "password": "$2a$10$MM8ja6FAmxUO7bFmwSKdd.j9qyA.IPdbKCwiTDUhQtvG42egrh02.",
+  "accountType": "ADOPTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG9wdGVyM0BtYWlsLmNvbSIsImlhdCI6MTczMzc4MDIxMywiZXhwIjoxNzMzODY2NjEzfQ.Gu4DU3zoqJMC1GBILlp3x3K8-cxZ4uGfkM8sXd7ztS0",
+  "profileSet": true,
+  "recommendationList": "675763fc1f439578ea76b854",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "67522a10c818791a78173191"
+  },
+  "email": "adopter4@mail.com",
+  "password": "$2a$10$nkoWk2lJZC9Rklbd1cBUsOWAsTEhykWvsJ8HRGe1fbCAnOZWAP.Zi",
+  "accountType": "ADOPTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG9wdGVyNEBtYWlsLmNvbSIsImlhdCI6MTczMzkxODU5MywiZXhwIjoxNzM0MDA0OTkzfQ.htCwaB0EGKVdA2B0c-w6tpWnnBs4EPS7VGqNuanCd_U",
+  "name": "John Smith",
+  "address": "Main Street",
+  "city": "Toronto",
+  "province": "ON",
+  "postalCode": "M7T 7H1",
+  "phone": "1234567",
+  "profileSet": true,
+  "recommendationList": "67597ebb59aedc76ad8e469d",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "67580c4104e99f6cd9ddbdf1"
+  },
+  "email": "adopter6@mail.com",
+  "password": "$2a$10$tv4ryz92.Vufh1rz.ScMwO9dUT4vPYUI6QILikuQIlh7jBEydwX.W",
+  "accountType": "ADOPTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG9wdGVyNkBtYWlsLmNvbSIsImlhdCI6MTczMzk0OTYyMSwiZXhwIjoxNzM0MDM2MDIxfQ.4zRszO1ITqTqzItPtiK3IFVGuNNsLcgGurVwNOKSbbY",
+  "name": "Jane Smith",
+  "address": "Main Street",
+  "city": "Toronto",
+  "province": "ON",
+  "postalCode": "M4R 7H1",
+  "phone": "12345678",
+  "imageUrl": "/images/b53934b0-ca86-45a6-a3fa-5bb67a859a7a.webp",
+  "profileSet": true,
+  "recommendationList": "6759f7805b88c720700b917c",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "6759d69a59aedc76ad8e46b4"
+  },
+  "email": "Adopter@mail.com",
+  "password": "$2a$10$GdzSuot/fd2frXIFqj6rHObm15REHtelaW6KcPPxOSp5zafVRQH12",
+  "accountType": "ADOPTER",
+  "profileSet": false,
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "6759f8db5b88c720700b9187"
+  },
+  "email": "adopter_cats@mail.com",
+  "password": "$2a$10$4Bkh5aKcortwCb0v6Y5IPOXYYbNzNjcgJjYqnBtbuTXLcPb5.bSni",
+  "accountType": "ADOPTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG9wdGVyX2NhdHNAbWFpbC5jb20iLCJpYXQiOjE3MzM5NTcwMTEsImV4cCI6MTczNDA0MzQxMX0.vY6-oKwMhcDqLvISqLC_Z3T2nWXKkO09lMI2cbx6Vcw",
+  "name": "Jane Doe",
+  "address": "2 address street",
+  "city": "Toronto",
+  "province": "Ontario",
+  "postalCode": "1A1 2B2",
+  "phone": "111-111-1111",
+  "profileSet": true,
+  "recommendationList": "675a15d27b99272ee2421f38",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "6759ff0d7b99272ee2421e76"
+  },
+  "email": "adopter_dogs@mail.com",
+  "password": "$2a$10$8PZD7Exy.iiA3GnnFyooeu4oK/qSLg0SP7isxdpktNyQHH29P8p6i",
+  "accountType": "ADOPTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG9wdGVyX2RvZ3NAbWFpbC5jb20iLCJpYXQiOjE3MzM5NTI3MjAsImV4cCI6MTczNDAzOTEyMH0.xKYXfjEFj12MUAPoRuiWxMV3ZZyM2hvUZDQttM5-O7Y",
+  "name": "Adopter who likes dogs",
+  "address": "Dog Street",
+  "city": "Toronto",
+  "province": "ON",
+  "postalCode": "MD4 5Y7",
+  "phone": "1234567",
+  "profileSet": true,
+  "recommendationList": "675a02bc7b99272ee2421e94",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "675a07da7b99272ee2421e9e"
+  },
+  "email": "adoptertest@gmail.com",
+  "password": "$2a$10$zbjQ0r3arQOfU2avQLy1neCLCPXEZNcjI/.SGiUmXnJX8wxN2dRTy",
+  "accountType": "ADOPTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG9wdGVydGVzdEBnbWFpbC5jb20iLCJpYXQiOjE3MzM5NTQzNjYsImV4cCI6MTczNDA0MDc2Nn0.RD0SgmQpHN2ym1m5FoqsCak-kssdqeLW1usvbn-epbc",
+  "name": "Adopter A",
+  "profileSet": true,
+  "recommendationList": "675a083b7b99272ee2421eb1",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "675a0a957b99272ee2421eb7"
+  },
+  "email": "sheltertest@gmail.com",
+  "password": "$2a$10$o2YUsmzQRaoS6IZHeheWFuvngzo7MJ5qrfO9Jgo2t/KiOtiJGy.XG",
+  "accountType": "SHELTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaGVsdGVydGVzdEBnbWFpbC5jb20iLCJpYXQiOjE3MzM5NTQyMDgsImV4cCI6MTczNDA0MDYwOH0.4mj2w-FFNKxtwslY1IWv5q1hRdH2UmHN9BS7C-dVG9E",
+  "name": "Shelter A",
+  "profileSet": true,
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "675a0ed97b99272ee2421f0b"
+  },
+  "email": "adopter_cats2@mail.com",
+  "password": "$2a$10$L0h602R/FY3/y9V7CLb6VetvRGyPrqG6v26zf4KGVTypCnVPR0qli",
+  "accountType": "ADOPTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG9wdGVyX2NhdHMyQG1haWwuY29tIiwiaWF0IjoxNzMzOTU1MzAxLCJleHAiOjE3MzQwNDE3MDF9.tD-HDCmoSuSzIyTTRd_PDlTEfnQp3qaexC7Nz14KLTE",
+  "name": "I like cats",
+  "profileSet": true,
+  "recommendationList": "675a0ef37b99272ee2421f13",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "675a17047b99272ee2421f45"
+  },
+  "email": "⁠adopters_2@mail.com",
+  "password": "$2a$10$8RHJwYuo7tyADZfC9u9MO.bU8/1AUn0kjwsuFrKTGt9iKZ50fasES",
+  "accountType": "ADOPTER",
+  "profileSet": false,
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "675a171f7b99272ee2421f46"
+  },
+  "email": "⁠adopters.2@mail.com",
+  "password": "$2a$10$OLSJ4nqgPhdXwIWrqF9Dk.zHXTtLYKFSCYKTDBYUFOyOf9fDWUVYW",
+  "accountType": "ADOPTER",
+  "profileSet": false,
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "675a17537b99272ee2421f47"
+  },
+  "email": "⁠adopters2@mail.com",
+  "password": "$2a$10$y1zMoHxoik4yGWTZ6orwoel1EiGMGdaP3YMthN5JBIg0BfFtmHGMu",
+  "accountType": "ADOPTER",
+  "profileSet": false,
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "675a178e7b99272ee2421f48"
+  },
+  "email": "adopter2@mail.com",
+  "password": "$2a$10$0O8uVIxSx.MPhfx1uwd.Iu88mhxcRY.Q7NoOsESVGnuEaHgoFcLLO",
+  "accountType": "ADOPTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG9wdGVyMkBtYWlsLmNvbSIsImlhdCI6MTczMzk1ODgzNiwiZXhwIjoxNzM0MDQ1MjM2fQ.GTaPkMoMMutyhrZt4FmqUptOpRJ3xeWfzTlvkpMNAvc",
+  "name": "New Adopter",
+  "address": "Main Street",
+  "city": "Toronto",
+  "province": "ON",
+  "postalCode": "M6T 7U3",
+  "phone": "1234567",
+  "imageUrl": "/images/ed409986-ec5f-416e-9f4e-7bd27e757755.webp",
+  "profileSet": true,
+  "recommendationList": "675a1afb7b99272ee2421f56",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "675a1f2a7b99272ee2421f5d"
+  },
+  "email": "adopter11@mail.com",
+  "password": "$2a$10$4SxiRYxstr3HnOXXpwuCNu3o0oUHGDsZ4O30yHt2Faw2n42pZHXNe",
+  "accountType": "ADOPTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG9wdGVyMTFAbWFpbC5jb20iLCJpYXQiOjE3MzM5NjA0NTcsImV4cCI6MTczNDA0Njg1N30.4x7rVilz7kej8tq7yeuMg3A4P2feSQQ6FeNcOhIiGwY",
+  "name": "Dog loving adopter",
+  "address": "Dog Street",
+  "city": "Toronto",
+  "province": "ON",
+  "postalCode": "M6Y 8I9",
+  "phone": "12434",
+  "imageUrl": "/images/4869c5ce-11e6-4cf9-99b9-8276601fcc47.webp",
+  "profileSet": true,
+  "recommendationList": "675a21227b99272ee2421f71",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "675a21fa7b99272ee2421f77"
+  },
+  "email": "adopter22@mail.com",
+  "password": "$2a$10$PA2HbxHKCYHe2ga0qCLXju7F1A2wB3wVcLk/8FiVsEvd.n8Y4ka3S",
+  "accountType": "ADOPTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG9wdGVyMjJAbWFpbC5jb20iLCJpYXQiOjE3MzM5NjAzMTksImV4cCI6MTczNDA0NjcxOX0.9D-AwiD9DeVJfhTwcanPxW9jCZjbaLrQH_kK6aKMA0M",
+  "profileSet": false,
+  "recommendationList": "675a220d7b99272ee2421f79",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+},
+{
+  "_id": {
+    "$oid": "675a277d7b99272ee2421f84"
+  },
+  "email": "adopter1@mail.com",
+  "password": "$2a$10$rtWfz7ljT7qiFVpyXPmGG.ocezsrOZnomFDUYT8pUnF7gFkhaNC1S",
+  "accountType": "ADOPTER",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG9wdGVyMUBtYWlsLmNvbSIsImlhdCI6MTczMzk2MTkxNCwiZXhwIjoxNzM0MDQ4MzE0fQ.kixT1yK2cHpvQJB98tS2VUGeY-fPimWOx0s1KJPHivw",
+  "name": "Dog adopter",
+  "address": "Dog Street",
+  "city": "Toronto",
+  "province": "ON",
+  "postalCode": "M5T 7H3",
+  "phone": "123456",
+  "imageUrl": "/images/19d12b44-b876-46cf-8495-857032c96177.webp",
+  "profileSet": true,
+  "recommendationList": "675a29b27b99272ee2421f9c",
+  "_class": "com.prj666.group1.petadoptionsystem.model.User"
+}]
